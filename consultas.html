@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/index.js"></script>
+    <link rel="stylesheet" href="Style/styleGeneral.css">
+    <link rel="stylesheet" href="Style/StyleHF.css">
+    <link rel="stylesheet" href="Style/styleCon.css">         <!--cambiar este css para cada página-->
+    <link rel="icon" href="resources/icon-paw.ico" type="image.ico">
+    <title>Mis Huellitas</title>
+</head>
+<body>
+    <header>
+        <section class="head">
+            
+            <article>
+                <div id="logo">
+                    <img src="/resources/icon-paw.png" alt="">
+                </div>
+                <h1>Mis Huellitas</h1>
+                <p>Seguridad para tus mascotas</p>
+            </article>
+        </section>
+        <nav class="menubar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="consultas.html">Consultas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="responsive">
+            <section>
+                <article>
+                    <div>
+                        <h2>Déjenos sus consultas a través del siguiente formulario</h2>
+                        <h3>Te contactamos a la bervedad</h3>
+                    </div>
+                </article>
+            </section>
+            <div>
+            <form action="https://formspree.io/f/mjvzazen" method="POST">
+                    <div class="datos">
+                        <input type="text" id="nombre" placeholder="Nombre" required>         <!--esos de abajo los uso para el grid-->
+                        <input type="text" id="apellido" placeholder="Apellido" required>
+                        <input type="text" id="tel" placeholder="Teléfono" required>
+                        <input type="email" id="mail" placeholder="Mail" required>
+                    </div>
+                <div class="consulta">
+                        <textarea type="text" id="consulta" placeholder="Ingrese su consulta" maxlength="400" name="Consulta" required></textarea>
+                </div>
+                    <input type="submit" placeholder="Enviar">
+            </form>
+            <a href="mailito:eliot230502@gmail.com"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section id="declaracion">
+            <p>Declaración del autor. <br>El contenido de esta página no esta sujeto a derecho de terceros
+            y solo <br>está siendo utilizado a modo de práctica para esta actividad. <br>
+            Ningún contenido mostrado en esta página es de nuestra autoría a excepción de la programación detrás</p>
+        </section>
+        <section class="foot">
+            <article class="comunicacion">
+                <h3>Nuestras <br> Redes</h3>
+                <ul id="redes">
+                    <li><a href="https://www.facebook.com/home.php"><img src="/resources/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="https://www.instagram.com"><img src="/resources/instagram.png" alt="Instagram"></a></li>
+                    <li><a href="https://www.tiktok.com/"><img src="/resources/tik-tok.png" alt="Tik-Tok"></a></li>
+                </ul>
+            </article>
+            <article class="comunicacion">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><img src="/resources/whatsapp.png" alt="Whatsapp"> 1111111</li>
+                    <li><img src="/resources/telephone.png" alt="Teléfono"> 11111111</li>
+                    <li><img src="/resources/gmail.png" alt="Email"> asasas@gmail.com</li>
+                    <li><a href="https://goo.gl/maps/WBj4z6Fawdb89Ruz9" target="_blank"><img src="/resources/gps.png" alt="Ubicación">Avenida Presidente Arturo U. Illia 2055</a></li>
+                </ul>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>

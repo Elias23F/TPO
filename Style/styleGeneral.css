@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    font-family: 'Varela Round', sans-serif;            /*cambiar fuente del header */
+}
+html{
+    font-size: 1rem;
+    height: 100%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: bisque;
+}
+@media only screen and (max-width:649px){
+    .responsive{
+        padding: 10px;
+        background-color: antiquewhite;
+        min-height: 180px;
+        overflow: auto;
+    }
+    .secciones>article{
+        display: block;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:650px) and (max-width:849px){
+    .responsive{
+        padding: 10px;
+        background-color: antiquewhite;
+        min-height: 180px;
+        width: 80vw;
+        overflow: auto;
+    }
+    .secciones>article{
+        display: block;
+        text-align: center;
+    }
+    main{
+        min-height: 100px;
+        display: flex;
+        justify-content: center;
+        background-image: url(../resources/icon-paw.png);
+    }
+    
+}
+@media only screen and (min-width:850px){
+    .responsive{
+        min-height: 180px;
+        padding: 10px;
+        background-color: antiquewhite;
+        width: fit-content;
+        max-width: 75vw;
+        overflow: auto;
+    }
+    main{
+        min-height: 100px;
+        display: flex;
+        justify-content: center;
+        background-image: url(../resources/icon-paw.png);
+    }
+}

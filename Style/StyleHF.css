@@ -1,0 +1,64 @@
+header{
+    background-color: rgba(236, 63, 63, 0.79);
+    min-height: 5rem;
+}
+footer{
+    background-color: rgba(236, 63, 63, 0.79);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+/*header foco*/
+.menubar{            /*poner animacion	cuando se pase el cursor por arriba*/
+    display: flex;   /*y un cambio de color para las letras con un ".menubar a:hover" para de blanco a negro*/
+}
+.menubar ul{          /*si ocurre algun error es por este call, en ese caso separar ul, li y a*/
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: large;
+}
+.menubar li{
+    font-size: large;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* prueba arreglar luego las letras h1 y p*/ /*respuesta, podríamos usar  GRID en .head*/
+.head>article{
+display: flex;
+}
+
+/*footer foco*/
+footer #declaracion{
+    display: flex;
+    justify-content: baseline;    /*esto no va, fijarse en usar grid para cetrar la declaración*/
+}
+.foot{
+    display: flex;
+    justify-content: start;
+}
+#declaracion p{
+    display: grid;
+    grid-template-columns: auto;
+    align-content: center;
+    text-align: start;
+}
+/* .foot>article{
+    margin: 1rem;
+} */
+li img{
+    height: 30px;
+}
+#redes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.comunicacion h3{
+    text-align: center;
+}

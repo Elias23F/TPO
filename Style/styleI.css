@@ -1,0 +1,13 @@
+.secciones article{
+    display: flex;
+}
+.conteiner{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.conteiner iframe{
+    border-radius: 20px;
+}
